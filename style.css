@@ -3,7 +3,7 @@ body {
     font-family:sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #beb8b8;
+    background-color:rgb(236, 224, 226);
     color: #333;
   }
   header {
@@ -16,7 +16,23 @@ body {
     margin: 0;
     font-size: 3.5em;
   }
-  .container {
+  .oddMan{
+    width: 930px;
+    /* background-color: #ffffff; */
+    background-color: rgb(221, 195, 195);
+    opacity: 5.6;
+    margin-left: 700px;
+  }
+  .oddMan p{
+    margin: 5%;
+    font-weight: bold;
+    
+    text-align: justify;
+    width:900px;
+    margin-left: 10px;
+    box-sizing: 5px 5px;
+  }
+  .blogContainer {
     padding: 30px;
     margin: auto;
     display: flex;
@@ -26,7 +42,7 @@ body {
       width: 470px;
   }
   .hero{
-      background-image:linear-gradient(rgba(0,0,0,0.5)),url('./images/noah.jpeg');
+      background-image:linear-gradient(rgba(0,0,0,0.5)),url('https://dnm.nflximg.net/api/v6/BvVbc2Wxr2w6QuoANoSpJKEIWjQ/AAAAQUDFxKJLu2Tok6ma0YS_pTLLsS_x2FnbE6G-shcsheF1PildqRQkJemS2DAKFdlo4T9I55CInz89vUXRMlbfz1gkVOZ5mTZJ4eR7jAs-YbfBwxLQ8UpzWOaBP7XBY0Y5W4zz0_E5tOHK7-HOneLTcl6-.jpg?r=403');
       background-size: cover;
       background-position: center;
       height: 400px;
@@ -55,11 +71,18 @@ body {
     font-size: 2.3vh;
     color:rgb(78, 76, 75);
   }
+  footer ul li a{
+    color: black;
+  }
+  footer ul li{
+    list-style: none;
+    margin-left: -260px;
+  }
   a{
     color:rgb(247, 244, 244);
     text-decoration: none;
-  margin-left: 25vh;
-  margin-top: 5vh;
+    margin-left: 25vh;
+    margin-top: 5vh;
   }
   footer {
     text-align: center;
@@ -76,9 +99,7 @@ body {
     height: 60vh;
     overflow-x: hidden;
   }
-  audio{
-    margin-top: 50px;
-  }
+
   button{
     border:none;
     border: 5px;
@@ -89,10 +110,16 @@ body {
     font-size: 20px;
     width: 25%;
     height: 50px;
-    color: rgb(14, 13, 13);
-    margin-top: -50px;
+    color: wheat;
     margin-left: 400px;
-    
+    background-color: #111010;
+  }
+  .downloadBook{
+    margin-top: 20px;
+  }
+  .reviews{
+    margin-left: 30px;
+    margin-top: -65px;
   }
   @media screen and (min-width: 320px)and (max-width: 480px){
     .cover{
